@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box; padding: 0;margin: 0;
+}
+.main{
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+    gap: 50px;
+    
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.boxes{
+    height: 300px;
+    width: 300px;
+    position: relative;  
+    overflow: hidden; 
+}
+.text{
+     position: absolute;
+    top: 75%; 
+    left: 0;
+    padding-left: 10px;
+    width: 100%;
+    height: 100%;
+    background-color:  rgba (peru);    
+    backdrop-filter: brightness(30%);  
+}
+
+h2{  
+    color: white;
+    padding-bottom: 5px;  
+}
+.text a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(3, 119, 3);
+    border-style: none;
+    border-radius: 5px;
+    padding: 5px 12px;  
+}
+
+
+
+
+
